@@ -32,7 +32,7 @@ Please make sure the `jwt-generator` is an executable.
 | GET    | `/hmac-token`  | Generate JWT token HMAC encoded (HS256,HS...)  |
 | GET    | `/rsa-token`   | Generate JWT token RSA encoded (RS256,RS...)   |
 | GET    | `/ecdsa-token` | Generate JWT token ECDSA encoded (ES256,ES...) |
-| GET    | `/ping`        | For fun purposes and life check                |
+| POST    | `/ping`        | For fun purposes and life check                |
 
 ### Request Structure
 
